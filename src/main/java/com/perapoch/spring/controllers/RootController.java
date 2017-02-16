@@ -11,6 +11,6 @@ public class RootController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greeting from SpringBoot!";
+        return "Greetings from Spring Boot!";
     }
 }
